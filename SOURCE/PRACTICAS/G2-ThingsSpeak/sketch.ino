@@ -9,7 +9,7 @@ const char* WIFI_NAME = "Wokwi-GUEST";
 const char* WIFI_PASSWORD = "";
 
 const int myChannelNumber = 2828545;
-const char* myApiKey = "UOI3ZDWZWOCL60FH";
+const char* myApiKey = "key";
 const char* server = "api.thingspeak.com";
 
 // Definición de pines

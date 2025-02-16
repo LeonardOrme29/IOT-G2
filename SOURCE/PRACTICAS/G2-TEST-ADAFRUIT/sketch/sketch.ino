@@ -10,14 +10,14 @@
 
 //=================================================================
 // Configuración de red WiFi
-#define WLAN_SSID "FAMOV"
-#define WLAN_PASS "17200214"
+#define WLAN_SSID "red"
+#define WLAN_PASS "pass"
 
 // Configuración de Adafruit IO (MQTT)
-#define AIO_SERVER      "io.adafruit.com"
+#define AIO_SERVER      root
 #define AIO_SERVERPORT  1883
-#define AIO_USERNAME    "LeonardOrmeno29"
-#define AIO_KEY         "aio_mqbS93hQeD3RkJv0HTc5wsYQDZsl"
+#define AIO_USERNAME    username
+#define AIO_KEY         KEY
 
 //=================================================================
 // pin
