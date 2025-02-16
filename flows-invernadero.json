@@ -403,5 +403,23 @@
                 "bb089d47ccc829ab"
             ]
         ]
+    },
+    {
+        "id": "24cca47a07cc7777",
+        "type": "function",
+        "z": "78d1d8fa3656bdbc",
+        "name": "function 1",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 420,
+        "wires": [
+            []
+        ]
     }
 ]
