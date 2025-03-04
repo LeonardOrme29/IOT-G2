@@ -7,6 +7,7 @@ Integrantes:
 - Leonardo Ormeño Vasquez
 - David Brian Sandoval Falcon
 - Sergio Daniel Quiroz Ardiles
+- Tarazona Villar Ivan Hubel
 
 ### About
 
