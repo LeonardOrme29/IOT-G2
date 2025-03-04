@@ -3,6 +3,9 @@ Invernadero
 
 Invernadero Inteligente - G2 - IOT
 
+Integrantes:
+-Leonardo Ormeño Vasquez
+
 ### About
 
 This is your project's README.md file. It helps users understand what your
