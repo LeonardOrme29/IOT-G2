@@ -184,9 +184,9 @@
         "type": "ui_group",
         "name": "HUMEDAD GAUGE",
         "tab": "d81a1eb81db24614",
-        "order": 1,
-        "disp": true,
-        "width": 6,
+        "order": 3,
+        "disp": false,
+        "width": "11",
         "collapse": false,
         "className": ""
     },
@@ -195,8 +195,8 @@
         "type": "ui_group",
         "name": "Evolucion Temperatura",
         "tab": "d81a1eb81db24614",
-        "order": 2,
-        "disp": true,
+        "order": 5,
+        "disp": false,
         "width": "11",
         "collapse": false,
         "className": ""
@@ -206,8 +206,8 @@
         "type": "ui_group",
         "name": "evolucion humedad",
         "tab": "d81a1eb81db24614",
-        "order": 3,
-        "disp": true,
+        "order": 6,
+        "disp": false,
         "width": "11",
         "collapse": false,
         "className": ""
@@ -216,7 +216,7 @@
         "id": "04b319e3bf14c589",
         "type": "ui_tab",
         "name": "Historico",
-        "icon": "fa-history",
+        "icon": "fa-cogs",
         "order": 2,
         "disabled": false,
         "hidden": false
@@ -224,19 +224,21 @@
     {
         "id": "a9fe2d8c0cadc1b3",
         "type": "ui_group",
-        "name": "Group 1",
+        "name": "HORTALIZAS",
         "tab": "04b319e3bf14c589",
-        "order": 1,
-        "disp": true,
-        "width": 6
+        "order": 2,
+        "disp": false,
+        "width": "11",
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "9f78de34d107596c",
         "type": "ui_group",
         "name": "MANUAL",
         "tab": "d81a1eb81db24614",
-        "order": 5,
-        "disp": true,
+        "order": 8,
+        "disp": false,
         "width": "35",
         "collapse": false,
         "className": ""
@@ -246,34 +248,55 @@
         "type": "ui_group",
         "name": "level temp",
         "tab": "d81a1eb81db24614",
-        "order": 4,
-        "disp": true,
-        "width": "6",
+        "order": 2,
+        "disp": false,
+        "width": "11",
         "collapse": false,
         "className": ""
     },
     {
-        "id": "079c35dc39eda91f",
+        "id": "d76b8142ee97ae1a",
+        "type": "ui_group",
+        "name": "luz actual",
+        "tab": "d81a1eb81db24614",
+        "order": 4,
+        "disp": false,
+        "width": "11",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "28bd586320197629",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "68f4ee8c43db8954",
+        "order": 2,
+        "width": "1",
+        "height": "1"
+    },
+    {
+        "id": "74646a38c8a65110",
         "type": "ui_spacer",
         "z": "78d1d8fa3656bdbc",
         "name": "spacer",
         "group": "9f78de34d107596c",
-        "order": 2,
-        "width": 1,
-        "height": 1
+        "order": 1,
+        "width": "15",
+        "height": "2"
     },
     {
-        "id": "f5ff7afe73ce881f",
+        "id": "d58844b9bf21d6c9",
         "type": "ui_spacer",
         "z": "78d1d8fa3656bdbc",
         "name": "spacer",
         "group": "9f78de34d107596c",
         "order": 3,
-        "width": 1,
-        "height": 1
+        "width": "15",
+        "height": "2"
     },
     {
-        "id": "91fe9ec4153bf026",
+        "id": "a7ebf7fd9da63e21",
         "type": "ui_spacer",
         "z": "78d1d8fa3656bdbc",
         "name": "spacer",
@@ -283,7 +306,7 @@
         "height": 1
     },
     {
-        "id": "68f663756a1918a4",
+        "id": "63cf65aba7cb6b62",
         "type": "ui_spacer",
         "z": "78d1d8fa3656bdbc",
         "name": "spacer",
@@ -293,54 +316,220 @@
         "height": 1
     },
     {
-        "id": "717317bef905caac",
+        "id": "b08202cce5712ccb",
         "type": "ui_spacer",
         "z": "78d1d8fa3656bdbc",
         "name": "spacer",
         "group": "84ffdf7fa472fe72",
         "order": 1,
-        "width": 1,
-        "height": 1
+        "width": "2",
+        "height": "1"
     },
     {
-        "id": "c6816b5be6243ed7",
-        "type": "ui_spacer",
-        "z": "78d1d8fa3656bdbc",
-        "name": "spacer",
-        "group": "84ffdf7fa472fe72",
+        "id": "67bf78b3d8f06758",
+        "type": "ui_group",
+        "name": "Evolución Iluminación",
+        "tab": "d81a1eb81db24614",
+        "order": 7,
+        "disp": false,
+        "width": "11",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0e50bb0ebf6eedb0",
+        "type": "ui_group",
+        "name": "Group 8",
+        "tab": "d81a1eb81db24614",
         "order": 1,
-        "width": 1,
-        "height": 1
+        "disp": false,
+        "width": "1",
+        "collapse": false,
+        "className": ""
     },
     {
-        "id": "863c33d403ae3b6d",
+        "id": "18af495533be70ab",
         "type": "ui_spacer",
         "z": "78d1d8fa3656bdbc",
         "name": "spacer",
-        "group": "84ffdf7fa472fe72",
-        "order": 1,
-        "width": 1,
-        "height": 1
+        "group": "0e50bb0ebf6eedb0",
+        "order": 8,
+        "width": "1",
+        "height": "12"
     },
     {
-        "id": "82838ee5b67e8551",
+        "id": "49b1aae81135138a",
+        "type": "ui_group",
+        "name": "CustomConfig",
+        "tab": "04b319e3bf14c589",
+        "order": 5,
+        "disp": false,
+        "width": "33",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "85b55e49226bf94b",
         "type": "ui_spacer",
         "z": "78d1d8fa3656bdbc",
         "name": "spacer",
-        "group": "84ffdf7fa472fe72",
-        "order": 1,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "32cad57b32cff318",
-        "type": "ui_spacer",
-        "z": "78d1d8fa3656bdbc",
-        "name": "spacer",
-        "group": "617dc4334df745b1",
+        "group": "49b1aae81135138a",
         "order": 2,
+        "width": "13",
+        "height": "5"
+    },
+    {
+        "id": "4cea62774e8a93c8",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "49b1aae81135138a",
+        "order": 4,
+        "width": "13",
+        "height": "1"
+    },
+    {
+        "id": "729af1e2d02098f9",
+        "type": "ui_group",
+        "name": "HIERBAS AROMATICAS",
+        "tab": "04b319e3bf14c589",
+        "order": 3,
+        "disp": false,
+        "width": "11",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d9b0b4d29212a656",
+        "type": "ui_group",
+        "name": "FRUTAS TROPICALES",
+        "tab": "04b319e3bf14c589",
+        "order": 4,
+        "disp": false,
+        "width": "11",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f09e7f3ae11173d9",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "",
+        "order": 9,
         "width": 1,
         "height": 1
+    },
+    {
+        "id": "50f30258197e8cd4",
+        "type": "ui_group",
+        "name": "TITULO",
+        "tab": "04b319e3bf14c589",
+        "order": 1,
+        "disp": false,
+        "width": "33",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4986615438b83396",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "a9fe2d8c0cadc1b3",
+        "order": 1,
+        "width": "3",
+        "height": "5"
+    },
+    {
+        "id": "97b51f7396ff4b5c",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "a9fe2d8c0cadc1b3",
+        "order": 3,
+        "width": "2",
+        "height": "1"
+    },
+    {
+        "id": "a87f7c0924a97f4f",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "729af1e2d02098f9",
+        "order": 1,
+        "width": "3",
+        "height": "5"
+    },
+    {
+        "id": "32a23ec8b8dc07b1",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "729af1e2d02098f9",
+        "order": 3,
+        "width": "2",
+        "height": "1"
+    },
+    {
+        "id": "9e978521fef2ac8f",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "d9b0b4d29212a656",
+        "order": 1,
+        "width": "3",
+        "height": "5"
+    },
+    {
+        "id": "1769d28e822413b6",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "d9b0b4d29212a656",
+        "order": 3,
+        "width": "2",
+        "height": "1"
+    },
+    {
+        "id": "f4ccc79f8fa7526c",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "49b1aae81135138a",
+        "order": 6,
+        "width": "13",
+        "height": "1"
+    },
+    {
+        "id": "d224cad5bed8644f",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "49b1aae81135138a",
+        "order": 8,
+        "width": "13",
+        "height": "1"
+    },
+    {
+        "id": "5c974d4317fc65b0",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "49b1aae81135138a",
+        "order": 1,
+        "width": "33",
+        "height": "1"
+    },
+    {
+        "id": "15de48bc185f1571",
+        "type": "MySQLdatabase",
+        "name": "xampp",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "invernadero",
+        "tz": "",
+        "charset": "UTF8"
     },
     {
         "id": "b43385f320034611",
@@ -355,12 +544,11 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 250,
-        "y": 220,
+        "x": 130,
+        "y": 180,
         "wires": [
             [
-                "49c731bed3df2045",
-                "0936ad59abef67f5"
+                "49c731bed3df2045"
             ]
         ]
     },
@@ -372,13 +560,15 @@
         "property": "payload",
         "action": "obj",
         "pretty": true,
-        "x": 470,
-        "y": 240,
+        "x": 330,
+        "y": 180,
         "wires": [
             [
                 "bb46b6ed3c5aa4d4",
                 "27a532c692000f0e",
-                "81709f3d99fb940a"
+                "81709f3d99fb940a",
+                "db405a656256ed92",
+                "78abb8c411aa97d8"
             ]
         ]
     },
@@ -387,7 +577,7 @@
         "type": "debug",
         "z": "78d1d8fa3656bdbc",
         "name": "DEBUG TEMP",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -395,8 +585,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 920,
-        "y": 100,
+        "x": 960,
+        "y": 20,
         "wires": []
     },
     {
@@ -405,9 +595,9 @@
         "z": "78d1d8fa3656bdbc",
         "name": "",
         "group": "84ffdf7fa472fe72",
-        "order": 1,
+        "order": 2,
         "width": 6,
-        "height": 6,
+        "height": "6",
         "gtype": "wave",
         "title": "Humedad Actual",
         "label": "%",
@@ -423,8 +613,8 @@
         "seg2": "",
         "diff": false,
         "className": "fill: rgb(0, 128, 100);",
-        "x": 900,
-        "y": 320,
+        "x": 940,
+        "y": 240,
         "wires": []
     },
     {
@@ -432,7 +622,7 @@
         "type": "debug",
         "z": "78d1d8fa3656bdbc",
         "name": "DEBUG HUMIDITY",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -440,8 +630,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 910,
-        "y": 360,
+        "x": 950,
+        "y": 280,
         "wires": []
     },
     {
@@ -449,7 +639,7 @@
         "type": "debug",
         "z": "78d1d8fa3656bdbc",
         "name": "debug 1",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -457,8 +647,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 640,
-        "y": 60,
+        "x": 680,
+        "y": 20,
         "wires": []
     },
     {
@@ -499,8 +689,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 940,
-        "y": 160,
+        "x": 980,
+        "y": 80,
         "wires": [
             []
         ]
@@ -517,8 +707,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 680,
-        "y": 140,
+        "x": 720,
+        "y": 100,
         "wires": [
             [
                 "319527111c4f8eb7",
@@ -539,8 +729,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 680,
-        "y": 300,
+        "x": 720,
+        "y": 260,
         "wires": [
             [
                 "f9f28e225ace9768",
@@ -569,7 +759,7 @@
         "ymax": "100",
         "removeOlder": 1,
         "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
+        "removeOlderUnit": "86400",
         "cutout": 0,
         "useOneColor": false,
         "useUTC": false,
@@ -587,8 +777,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 920,
-        "y": 400,
+        "x": 960,
+        "y": 320,
         "wires": [
             []
         ]
@@ -607,8 +797,8 @@
         "correl": "",
         "expiry": "",
         "broker": "1e7c14d972ffca93",
-        "x": 820,
-        "y": 760,
+        "x": 920,
+        "y": 920,
         "wires": []
     },
     {
@@ -619,8 +809,8 @@
         "property": "payload",
         "action": "",
         "pretty": false,
-        "x": 570,
-        "y": 760,
+        "x": 670,
+        "y": 920,
         "wires": [
             [
                 "92d51a2a09093adb",
@@ -633,7 +823,7 @@
         "type": "debug",
         "z": "78d1d8fa3656bdbc",
         "name": "debug 2",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -641,8 +831,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 800,
-        "y": 840,
+        "x": 900,
+        "y": 1000,
         "wires": []
     },
     {
@@ -653,8 +843,8 @@
         "label": "AUTOMATIC/MANUAL",
         "tooltip": "",
         "group": "9f78de34d107596c",
-        "order": 1,
-        "width": 34,
+        "order": 2,
+        "width": "5",
         "height": 2,
         "passthru": true,
         "decouple": "false",
@@ -671,8 +861,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 380,
-        "y": 680,
+        "x": 480,
+        "y": 840,
         "wires": [
             [
                 "ef7c499556c22dda"
@@ -693,8 +883,8 @@
         "correl": "",
         "expiry": "",
         "broker": "1e7c14d972ffca93",
-        "x": 800,
-        "y": 920,
+        "x": 900,
+        "y": 1080,
         "wires": []
     },
     {
@@ -723,8 +913,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 340,
-        "y": 800,
+        "x": 440,
+        "y": 960,
         "wires": [
             [
                 "3f41591724bddac3"
@@ -757,8 +947,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 180,
-        "y": 960,
+        "x": 280,
+        "y": 1120,
         "wires": [
             [
                 "4a882566cd7380f3"
@@ -773,8 +963,8 @@
         "property": "payload",
         "action": "",
         "pretty": false,
-        "x": 550,
-        "y": 860,
+        "x": 650,
+        "y": 1020,
         "wires": [
             [
                 "7871ded9a6e72854"
@@ -807,8 +997,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 200,
-        "y": 1040,
+        "x": 300,
+        "y": 1200,
         "wires": [
             [
                 "4a882566cd7380f3"
@@ -827,8 +1017,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 560,
-        "y": 1000,
+        "x": 660,
+        "y": 1160,
         "wires": [
             [
                 "8d223fd8848429b8"
@@ -843,8 +1033,8 @@
         "property": "payload",
         "action": "",
         "pretty": false,
-        "x": 710,
-        "y": 1020,
+        "x": 810,
+        "y": 1180,
         "wires": [
             [
                 "a625ab564b9a1c42",
@@ -866,8 +1056,8 @@
         "correl": "",
         "expiry": "",
         "broker": "1e7c14d972ffca93",
-        "x": 950,
-        "y": 1020,
+        "x": 1050,
+        "y": 1180,
         "wires": []
     },
     {
@@ -875,7 +1065,7 @@
         "type": "debug",
         "z": "78d1d8fa3656bdbc",
         "name": "debug 3",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -883,8 +1073,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 920,
-        "y": 1080,
+        "x": 1020,
+        "y": 1240,
         "wires": []
     },
     {
@@ -908,8 +1098,8 @@
         "reduceInit": "",
         "reduceInitType": "num",
         "reduceFixup": "",
-        "x": 390,
-        "y": 1000,
+        "x": 490,
+        "y": 1160,
         "wires": [
             [
                 "43998e718f9af59d"
@@ -922,10 +1112,10 @@
         "z": "78d1d8fa3656bdbc",
         "name": "",
         "group": "68f4ee8c43db8954",
-        "order": 1,
-        "width": 6,
-        "height": 6,
-        "gtype": "compass",
+        "order": 3,
+        "width": 8,
+        "height": "6",
+        "gtype": "donut",
         "title": "Temperatura Actual",
         "label": "C",
         "format": "{{value}}",
@@ -940,57 +1130,630 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 950,
-        "y": 220,
+        "x": 990,
+        "y": 140,
         "wires": []
     },
     {
-        "id": "10eff86be28762d7",
-        "type": "mqtt in",
+        "id": "db405a656256ed92",
+        "type": "function",
+        "z": "78d1d8fa3656bdbc",
+        "name": "msg light",
+        "func": "var msg = { payload: msg.payload.light };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 440,
+        "wires": [
+            [
+                "9aea283bdefd31b2",
+                "e77824a33b109dfe"
+            ]
+        ]
+    },
+    {
+        "id": "9aea283bdefd31b2",
+        "type": "ui_gauge",
         "z": "78d1d8fa3656bdbc",
         "name": "",
-        "topic": "",
-        "qos": "2",
-        "datatype": "auto-detect",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 230,
+        "group": "d76b8142ee97ae1a",
+        "order": 2,
+        "width": "11",
+        "height": "6",
+        "gtype": "gage",
+        "title": "Iluminación",
+        "label": "LUX",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "4500",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 950,
         "y": 420,
+        "wires": []
+    },
+    {
+        "id": "e77824a33b109dfe",
+        "type": "ui_chart",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "group": "67bf78b3d8f06758",
+        "order": 0,
+        "width": "11",
+        "height": "6",
+        "label": "Evolución Iluminación",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "4500",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 980,
+        "y": 500,
         "wires": [
             []
         ]
     },
     {
-        "id": "0936ad59abef67f5",
-        "type": "ui_led",
+        "id": "bccbf152bf0be7c1",
+        "type": "debug",
         "z": "78d1d8fa3656bdbc",
-        "order": 0,
+        "name": "DATA RECUPERADA",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "ec266607e40169d6",
+        "type": "ui_button",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
         "group": "a9fe2d8c0cadc1b3",
-        "width": 0,
-        "height": 0,
+        "order": 4,
+        "width": "11",
+        "height": 1,
+        "passthru": false,
+        "label": "Hortalizas y Vegetales",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "",
+        "payload": "{\"intled1\":28,\"intled2\":30,\"intmotor\":30}",
+        "payloadType": "json",
+        "topic": "iotfrontier/sub-config",
+        "topicType": "msg",
+        "x": 540,
+        "y": 1420,
+        "wires": [
+            [
+                "e25dd139ededd1b8"
+            ]
+        ]
+    },
+    {
+        "id": "e25dd139ededd1b8",
+        "type": "mqtt out",
+        "z": "78d1d8fa3656bdbc",
+        "name": "iotfrontier/sub-config",
+        "topic": "iotfrontier/sub-config",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "1e7c14d972ffca93",
+        "x": 1060,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "7ee87561b71c336a",
+        "type": "ui_media",
+        "z": "78d1d8fa3656bdbc",
+        "group": "a9fe2d8c0cadc1b3",
+        "name": "hortalizas",
+        "width": 6,
+        "height": 5,
+        "order": 2,
+        "category": "plantas",
+        "file": "tomate.png",
+        "layout": "adjust",
+        "showcontrols": true,
+        "loop": true,
+        "onstart": false,
+        "scope": "local",
+        "tooltip": "",
+        "x": 500,
+        "y": 1380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e4234996d9ea250b",
+        "type": "ui_button",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "group": "729af1e2d02098f9",
+        "order": 4,
+        "width": "11",
+        "height": 1,
+        "passthru": false,
+        "label": "Hierbas Aromáticas",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "className": "",
+        "icon": "",
+        "payload": "{\"intled1\":24,\"intled2\":28,\"intmotor\":28}",
+        "payloadType": "str",
+        "topic": "iotfrontier/sub-config",
+        "topicType": "msg",
+        "x": 530,
+        "y": 1500,
+        "wires": [
+            [
+                "e25dd139ededd1b8"
+            ]
+        ]
+    },
+    {
+        "id": "459fe484aef08732",
+        "type": "ui_button",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "group": "d9b0b4d29212a656",
+        "order": 4,
+        "width": "11",
+        "height": 1,
+        "passthru": false,
+        "label": "Frutas y Cultivos Tropicales",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "orange",
+        "className": "",
+        "icon": "",
+        "payload": "{\"intled1\":35,\"intled2\":40,\"intmotor\":40}",
+        "payloadType": "str",
+        "topic": "iotfrontier/sub-config",
+        "topicType": "msg",
+        "x": 560,
+        "y": 1580,
+        "wires": [
+            [
+                "e25dd139ededd1b8"
+            ]
+        ]
+    },
+    {
+        "id": "2e497b515438a2c3",
+        "type": "ui_media",
+        "z": "78d1d8fa3656bdbc",
+        "group": "d9b0b4d29212a656",
+        "name": "fruit",
+        "width": 6,
+        "height": 5,
+        "order": 2,
+        "category": "plantas",
+        "file": "tropicalfruits.png",
+        "layout": "center",
+        "showcontrols": true,
+        "loop": true,
+        "onstart": false,
+        "scope": "local",
+        "tooltip": "",
+        "x": 490,
+        "y": 1540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bbfa8db91c67b199",
+        "type": "ui_media",
+        "z": "78d1d8fa3656bdbc",
+        "group": "729af1e2d02098f9",
+        "name": "herb",
+        "width": 6,
+        "height": 5,
+        "order": 2,
+        "category": "plantas",
+        "file": "herb.png",
+        "layout": "adjust",
+        "showcontrols": true,
+        "loop": true,
+        "onstart": false,
+        "scope": "local",
+        "tooltip": "",
+        "x": 490,
+        "y": 1460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "00262970b3743d68",
+        "type": "ui_text",
+        "z": "78d1d8fa3656bdbc",
+        "group": "50f30258197e8cd4",
+        "order": 1,
+        "width": 33,
+        "height": 1,
+        "name": "Configuraciones Predetermidadas",
         "label": "",
-        "labelPlacement": "left",
-        "labelAlignment": "left",
-        "colorForValue": [
+        "format": "Configuraciones Predetermidadas",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "24",
+        "color": "#ffffff",
+        "x": 580,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "eb37eca60f087a76",
+        "type": "ui_button",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "group": "49b1aae81135138a",
+        "order": 9,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "label": "Enviar",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 870,
+        "y": 1660,
+        "wires": [
+            [
+                "71606ca215e9392b"
+            ]
+        ]
+    },
+    {
+        "id": "6c033e12b9f1c7a2",
+        "type": "ui_numeric",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "label": "Led 1",
+        "tooltip": "",
+        "group": "49b1aae81135138a",
+        "order": 3,
+        "width": 6,
+        "height": 1,
+        "wrap": true,
+        "passthru": true,
+        "topic": "led1",
+        "topicType": "msg",
+        "format": "°C",
+        "min": "20",
+        "max": "50",
+        "step": 1,
+        "className": "",
+        "x": 390,
+        "y": 1660,
+        "wires": [
+            [
+                "07de04bb8cdf2abb"
+            ]
+        ]
+    },
+    {
+        "id": "66b985854b6c35e9",
+        "type": "ui_numeric",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "label": "Led 2",
+        "tooltip": "",
+        "group": "49b1aae81135138a",
+        "order": 5,
+        "width": 6,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic.led2",
+        "topicType": "msg",
+        "format": "°C",
+        "min": "20",
+        "max": "50",
+        "step": 1,
+        "className": "",
+        "x": 390,
+        "y": 1720,
+        "wires": [
+            [
+                "64396aa98a5fd9db"
+            ]
+        ]
+    },
+    {
+        "id": "21f4d4df1723de5b",
+        "type": "ui_numeric",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "label": "Motor",
+        "tooltip": "",
+        "group": "49b1aae81135138a",
+        "order": 7,
+        "width": 6,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic.motor",
+        "topicType": "msg",
+        "format": "°C",
+        "min": "20",
+        "max": "50",
+        "step": 1,
+        "className": "",
+        "x": 390,
+        "y": 1780,
+        "wires": [
+            [
+                "1ec4adb6063b7b36"
+            ]
+        ]
+    },
+    {
+        "id": "71606ca215e9392b",
+        "type": "function",
+        "z": "78d1d8fa3656bdbc",
+        "name": "function 2",
+        "func": "msg.payload = {\n    \"intled1\": flow.get(\"intled1\") || 0,\n    \"intled2\": flow.get(\"intled2\") || 0,\n    \"intmotor\": flow.get(\"intmotor\") || 0\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 1760,
+        "wires": [
+            [
+                "e4b67430e1847e1c",
+                "e25dd139ededd1b8"
+            ]
+        ]
+    },
+    {
+        "id": "07de04bb8cdf2abb",
+        "type": "change",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "rules": [
             {
-                "color": "#ff0000",
-                "value": "false",
-                "valueType": "bool"
-            },
-            {
-                "color": "#008000",
-                "value": "true",
-                "valueType": "bool"
+                "t": "set",
+                "p": "intled1",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
             }
         ],
-        "allowColorForValueInMessage": false,
-        "shape": "circle",
-        "showGlow": true,
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 1660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "64396aa98a5fd9db",
+        "type": "change",
+        "z": "78d1d8fa3656bdbc",
         "name": "",
-        "x": 490,
-        "y": 440,
+        "rules": [
+            {
+                "t": "set",
+                "p": "intled2",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 1720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1ec4adb6063b7b36",
+        "type": "change",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "intmotor",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 1780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e4b67430e1847e1c",
+        "type": "debug",
+        "z": "78d1d8fa3656bdbc",
+        "name": "debug 4",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 1680,
         "wires": []
+    },
+    {
+        "id": "b635cdf3838ce112",
+        "type": "ui_text",
+        "z": "78d1d8fa3656bdbc",
+        "group": "a9fe2d8c0cadc1b3",
+        "order": 4,
+        "width": "11",
+        "height": "1",
+        "name": "desc hortalizas",
+        "label": "",
+        "format": "Temperatura ideal entre 20-28 °C. Advertencia > 28 y Alerta >30",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "15",
+        "color": "#ffffff",
+        "x": 660,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "7beff120f73ace6a",
+        "type": "ui_text",
+        "z": "78d1d8fa3656bdbc",
+        "group": "729af1e2d02098f9",
+        "order": 4,
+        "width": "11",
+        "height": "1",
+        "name": "des herb",
+        "label": "",
+        "format": "Temperatura ideal entre 20-24 °C. Advertencia > 24 y Alerta >28",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 640,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "d4b5f69c84ac1f4a",
+        "type": "ui_text",
+        "z": "78d1d8fa3656bdbc",
+        "group": "d9b0b4d29212a656",
+        "order": 4,
+        "width": "11",
+        "height": "1",
+        "name": "desc fruit",
+        "label": "",
+        "format": "Temperatura ideal entre 28-35 °C. Advertencia > 35 y Alerta >40",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 640,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "8047bb52b7645b4d",
+        "type": "mysql",
+        "z": "78d1d8fa3656bdbc",
+        "mydb": "15de48bc185f1571",
+        "name": "BD",
+        "x": 930,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "78abb8c411aa97d8",
+        "type": "function",
+        "z": "78d1d8fa3656bdbc",
+        "name": "query guardar data",
+        "func": "var temperature = msg.payload.temperature;\nvar humidity = msg.payload.humidity;\nvar light = msg.payload.light;\n\nmsg.topic = \"INSERT INTO datos (temp, hum, luz) VALUES (\" + \n             temperature + \", \" + humidity + \", \" + light + \")\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 580,
+        "wires": [
+            [
+                "bccbf152bf0be7c1",
+                "8047bb52b7645b4d"
+            ]
+        ]
     }
 ]
