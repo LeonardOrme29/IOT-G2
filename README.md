@@ -4,9 +4,9 @@ Invernadero
 Invernadero Inteligente - G2 - IOT
 
 Integrantes:
--Leonardo Ormeño Vasquez
--David Brian Sandoval Falcon
--Sergio Daniel Quiroz Ardiles
+- Leonardo Ormeño Vasquez
+- David Brian Sandoval Falcon
+- Sergio Daniel Quiroz Ardiles
 
 ### About
 
