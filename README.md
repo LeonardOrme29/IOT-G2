@@ -3,6 +3,12 @@ Invernadero
 
 Invernadero Inteligente - G2 - IOT
 
+Integrantes:
+- Leonardo Ormeño Vasquez
+- David Brian Sandoval Falcon
+- Sergio Daniel Quiroz Ardiles
+- Tarazona Villar Ivan Hubel
+
 ### About
 
 This is your project's README.md file. It helps users understand what your
