@@ -1,0 +1,12 @@
+{
+    "name": "Invernadero",
+    "description": "Invernadero Inteligente - G2 - IOT",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows-invernadero.json",
+            "credentialsFile": "flows-invernadero_cred.json"
+        }
+    }
+}

@@ -1,0 +1,1759 @@
+[
+    {
+        "id": "78d1d8fa3656bdbc",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "bec43bd593b601cc",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "1fea20395967a7b1",
+        "type": "tls-config",
+        "name": "",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "5dea5eeee3590490f92c71114832f6b6b5277fc8546a604c81e62a874976f390-certificate.pem.crt",
+        "keyname": "5dea5eeee3590490f92c71114832f6b6b5277fc8546a604c81e62a874976f390-private.pem.key",
+        "caname": "AmazonRootCA1.pem",
+        "servername": "",
+        "verifyservercert": true,
+        "alpnprotocol": ""
+    },
+    {
+        "id": "1e7c14d972ffca93",
+        "type": "mqtt-broker",
+        "name": "AWS Endpoind",
+        "broker": "a2r3yeh4fc4ud3-ats.iot.us-west-1.amazonaws.com",
+        "port": "8883",
+        "tls": "1fea20395967a7b1",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": true,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "da2a77f8368a463b",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#008000",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#008000",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#008000",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#00cc00",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#008000",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Invernadero Inteligente",
+            "hideToolbar": "false",
+            "allowSwipe": "menu",
+            "lockMenu": "icon",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "52fdb287d0eb0c16",
+        "type": "ui_group",
+        "name": "temperatura",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d81a1eb81db24614",
+        "type": "ui_tab",
+        "name": "Invernadero Inteligente",
+        "icon": "fa-television",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "84ffdf7fa472fe72",
+        "type": "ui_group",
+        "name": "HUMEDAD GAUGE",
+        "tab": "d81a1eb81db24614",
+        "order": 3,
+        "disp": false,
+        "width": "11",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "617dc4334df745b1",
+        "type": "ui_group",
+        "name": "Evolucion Temperatura",
+        "tab": "d81a1eb81db24614",
+        "order": 5,
+        "disp": false,
+        "width": "11",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3dd56c0a190269bb",
+        "type": "ui_group",
+        "name": "evolucion humedad",
+        "tab": "d81a1eb81db24614",
+        "order": 6,
+        "disp": false,
+        "width": "11",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "04b319e3bf14c589",
+        "type": "ui_tab",
+        "name": "Historico",
+        "icon": "fa-cogs",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "a9fe2d8c0cadc1b3",
+        "type": "ui_group",
+        "name": "HORTALIZAS",
+        "tab": "04b319e3bf14c589",
+        "order": 2,
+        "disp": false,
+        "width": "11",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9f78de34d107596c",
+        "type": "ui_group",
+        "name": "MANUAL",
+        "tab": "d81a1eb81db24614",
+        "order": 8,
+        "disp": false,
+        "width": "35",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "68f4ee8c43db8954",
+        "type": "ui_group",
+        "name": "level temp",
+        "tab": "d81a1eb81db24614",
+        "order": 2,
+        "disp": false,
+        "width": "11",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d76b8142ee97ae1a",
+        "type": "ui_group",
+        "name": "luz actual",
+        "tab": "d81a1eb81db24614",
+        "order": 4,
+        "disp": false,
+        "width": "11",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "28bd586320197629",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "68f4ee8c43db8954",
+        "order": 2,
+        "width": "1",
+        "height": "1"
+    },
+    {
+        "id": "74646a38c8a65110",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "9f78de34d107596c",
+        "order": 1,
+        "width": "15",
+        "height": "2"
+    },
+    {
+        "id": "d58844b9bf21d6c9",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "9f78de34d107596c",
+        "order": 3,
+        "width": "15",
+        "height": "2"
+    },
+    {
+        "id": "a7ebf7fd9da63e21",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "9f78de34d107596c",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "63cf65aba7cb6b62",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "9f78de34d107596c",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b08202cce5712ccb",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "84ffdf7fa472fe72",
+        "order": 1,
+        "width": "2",
+        "height": "1"
+    },
+    {
+        "id": "67bf78b3d8f06758",
+        "type": "ui_group",
+        "name": "Evolución Iluminación",
+        "tab": "d81a1eb81db24614",
+        "order": 7,
+        "disp": false,
+        "width": "11",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0e50bb0ebf6eedb0",
+        "type": "ui_group",
+        "name": "Group 8",
+        "tab": "d81a1eb81db24614",
+        "order": 1,
+        "disp": false,
+        "width": "1",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "18af495533be70ab",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "0e50bb0ebf6eedb0",
+        "order": 8,
+        "width": "1",
+        "height": "12"
+    },
+    {
+        "id": "49b1aae81135138a",
+        "type": "ui_group",
+        "name": "CustomConfig",
+        "tab": "04b319e3bf14c589",
+        "order": 5,
+        "disp": false,
+        "width": "33",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "85b55e49226bf94b",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "49b1aae81135138a",
+        "order": 2,
+        "width": "13",
+        "height": "5"
+    },
+    {
+        "id": "4cea62774e8a93c8",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "49b1aae81135138a",
+        "order": 4,
+        "width": "13",
+        "height": "1"
+    },
+    {
+        "id": "729af1e2d02098f9",
+        "type": "ui_group",
+        "name": "HIERBAS AROMATICAS",
+        "tab": "04b319e3bf14c589",
+        "order": 3,
+        "disp": false,
+        "width": "11",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d9b0b4d29212a656",
+        "type": "ui_group",
+        "name": "FRUTAS TROPICALES",
+        "tab": "04b319e3bf14c589",
+        "order": 4,
+        "disp": false,
+        "width": "11",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f09e7f3ae11173d9",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "50f30258197e8cd4",
+        "type": "ui_group",
+        "name": "TITULO",
+        "tab": "04b319e3bf14c589",
+        "order": 1,
+        "disp": false,
+        "width": "33",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4986615438b83396",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "a9fe2d8c0cadc1b3",
+        "order": 1,
+        "width": "3",
+        "height": "5"
+    },
+    {
+        "id": "97b51f7396ff4b5c",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "a9fe2d8c0cadc1b3",
+        "order": 3,
+        "width": "2",
+        "height": "1"
+    },
+    {
+        "id": "a87f7c0924a97f4f",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "729af1e2d02098f9",
+        "order": 1,
+        "width": "3",
+        "height": "5"
+    },
+    {
+        "id": "32a23ec8b8dc07b1",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "729af1e2d02098f9",
+        "order": 3,
+        "width": "2",
+        "height": "1"
+    },
+    {
+        "id": "9e978521fef2ac8f",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "d9b0b4d29212a656",
+        "order": 1,
+        "width": "3",
+        "height": "5"
+    },
+    {
+        "id": "1769d28e822413b6",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "d9b0b4d29212a656",
+        "order": 3,
+        "width": "2",
+        "height": "1"
+    },
+    {
+        "id": "f4ccc79f8fa7526c",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "49b1aae81135138a",
+        "order": 6,
+        "width": "13",
+        "height": "1"
+    },
+    {
+        "id": "d224cad5bed8644f",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "49b1aae81135138a",
+        "order": 8,
+        "width": "13",
+        "height": "1"
+    },
+    {
+        "id": "5c974d4317fc65b0",
+        "type": "ui_spacer",
+        "z": "78d1d8fa3656bdbc",
+        "name": "spacer",
+        "group": "49b1aae81135138a",
+        "order": 1,
+        "width": "33",
+        "height": "1"
+    },
+    {
+        "id": "15de48bc185f1571",
+        "type": "MySQLdatabase",
+        "name": "xampp",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "invernadero",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "b43385f320034611",
+        "type": "mqtt in",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "topic": "iotfrontier/pub",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "1e7c14d972ffca93",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 180,
+        "wires": [
+            [
+                "49c731bed3df2045"
+            ]
+        ]
+    },
+    {
+        "id": "49c731bed3df2045",
+        "type": "json",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 330,
+        "y": 180,
+        "wires": [
+            [
+                "bb46b6ed3c5aa4d4",
+                "27a532c692000f0e",
+                "81709f3d99fb940a",
+                "db405a656256ed92",
+                "78abb8c411aa97d8"
+            ]
+        ]
+    },
+    {
+        "id": "319527111c4f8eb7",
+        "type": "debug",
+        "z": "78d1d8fa3656bdbc",
+        "name": "DEBUG TEMP",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "bb089d47ccc829ab",
+        "type": "ui_gauge",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "group": "84ffdf7fa472fe72",
+        "order": 2,
+        "width": 6,
+        "height": "6",
+        "gtype": "wave",
+        "title": "Humedad Actual",
+        "label": "%",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "fill: rgb(0, 128, 100);",
+        "x": 940,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "f9f28e225ace9768",
+        "type": "debug",
+        "z": "78d1d8fa3656bdbc",
+        "name": "DEBUG HUMIDITY",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "bb46b6ed3c5aa4d4",
+        "type": "debug",
+        "z": "78d1d8fa3656bdbc",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "ada0c284651b9d9b",
+        "type": "ui_chart",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "group": "617dc4334df745b1",
+        "order": 1,
+        "width": 11,
+        "height": 6,
+        "label": "Evolución Temperatura",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "Cargando",
+        "dot": false,
+        "ymin": "20",
+        "ymax": "50",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 980,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "27a532c692000f0e",
+        "type": "function",
+        "z": "78d1d8fa3656bdbc",
+        "name": "msg temp",
+        "func": "var msg = { payload: msg.payload.temperature };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 100,
+        "wires": [
+            [
+                "319527111c4f8eb7",
+                "ada0c284651b9d9b",
+                "21925c3777552f86"
+            ]
+        ]
+    },
+    {
+        "id": "81709f3d99fb940a",
+        "type": "function",
+        "z": "78d1d8fa3656bdbc",
+        "name": "msg hum",
+        "func": "var msg = { payload: msg.payload.humidity };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 260,
+        "wires": [
+            [
+                "f9f28e225ace9768",
+                "bb089d47ccc829ab",
+                "ce21bbbd186af17d"
+            ]
+        ]
+    },
+    {
+        "id": "ce21bbbd186af17d",
+        "type": "ui_chart",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "group": "3dd56c0a190269bb",
+        "order": 1,
+        "width": 11,
+        "height": 6,
+        "label": "Evolución Humedad",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "50",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 960,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "92d51a2a09093adb",
+        "type": "mqtt out",
+        "z": "78d1d8fa3656bdbc",
+        "name": "iotfrontier/sub",
+        "topic": "iotfrontier/sub",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "1e7c14d972ffca93",
+        "x": 920,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "ef7c499556c22dda",
+        "type": "json",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 670,
+        "y": 920,
+        "wires": [
+            [
+                "92d51a2a09093adb",
+                "d33f84d102a21acc"
+            ]
+        ]
+    },
+    {
+        "id": "d33f84d102a21acc",
+        "type": "debug",
+        "z": "78d1d8fa3656bdbc",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "b95ed1d85e43817d",
+        "type": "ui_switch",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "label": "AUTOMATIC/MANUAL",
+        "tooltip": "",
+        "group": "9f78de34d107596c",
+        "order": 2,
+        "width": "5",
+        "height": 2,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "iotfrontier/sub-motor",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "{\"mode\":\"MANUAL\"}",
+        "onvalueType": "json",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "{\"mode\":\"AUTO\"}",
+        "offvalueType": "json",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 480,
+        "y": 840,
+        "wires": [
+            [
+                "ef7c499556c22dda"
+            ]
+        ]
+    },
+    {
+        "id": "7871ded9a6e72854",
+        "type": "mqtt out",
+        "z": "78d1d8fa3656bdbc",
+        "name": "iotfrontier/sub-motor",
+        "topic": "iotfrontier/sub-motor",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "1e7c14d972ffca93",
+        "x": 900,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "f64ad7c0cdeb30ad",
+        "type": "ui_switch",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "label": "MOTOR",
+        "tooltip": "",
+        "group": "9f78de34d107596c",
+        "order": 4,
+        "width": 11,
+        "height": 2,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "iotfrontier/sub-motor",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "{\"motor\":\"ON\"}",
+        "onvalueType": "json",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "{\"motor\":\"OFF\"}",
+        "offvalueType": "json",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 440,
+        "y": 960,
+        "wires": [
+            [
+                "3f41591724bddac3"
+            ]
+        ]
+    },
+    {
+        "id": "8584d34a52935079",
+        "type": "ui_switch",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "label": "LEDYELLOW",
+        "tooltip": "",
+        "group": "9f78de34d107596c",
+        "order": 5,
+        "width": 12,
+        "height": 2,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "yellow",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "{\"ledyellow\": \"ON\"}",
+        "onvalueType": "json",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "{\"ledyellow\": \"OFF\"}",
+        "offvalueType": "json",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 280,
+        "y": 1120,
+        "wires": [
+            [
+                "4a882566cd7380f3"
+            ]
+        ]
+    },
+    {
+        "id": "3f41591724bddac3",
+        "type": "json",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 650,
+        "y": 1020,
+        "wires": [
+            [
+                "7871ded9a6e72854"
+            ]
+        ]
+    },
+    {
+        "id": "729e69e01384c1d7",
+        "type": "ui_switch",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "label": "LEDRED",
+        "tooltip": "",
+        "group": "9f78de34d107596c",
+        "order": 6,
+        "width": 11,
+        "height": 2,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "RED",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "{\"ledred\": \"ON\"}",
+        "onvalueType": "json",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "{\"ledred\": \"OFF\"}",
+        "offvalueType": "json",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 300,
+        "y": 1200,
+        "wires": [
+            [
+                "4a882566cd7380f3"
+            ]
+        ]
+    },
+    {
+        "id": "43998e718f9af59d",
+        "type": "function",
+        "z": "78d1d8fa3656bdbc",
+        "name": "function 1",
+        "func": "var payload = {\n    \"ledyellow\": msg.yellow || \"OFF\", \n    \"ledred\": msg.red || \"OFF\"\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 1160,
+        "wires": [
+            [
+                "8d223fd8848429b8"
+            ]
+        ]
+    },
+    {
+        "id": "8d223fd8848429b8",
+        "type": "json",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 810,
+        "y": 1180,
+        "wires": [
+            [
+                "a625ab564b9a1c42",
+                "0d7efc47334fbc07"
+            ]
+        ]
+    },
+    {
+        "id": "a625ab564b9a1c42",
+        "type": "mqtt out",
+        "z": "78d1d8fa3656bdbc",
+        "name": "iotfrontier/sub-led",
+        "topic": "iotfrontier/sub-led",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "1e7c14d972ffca93",
+        "x": 1050,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "0d7efc47334fbc07",
+        "type": "debug",
+        "z": "78d1d8fa3656bdbc",
+        "name": "debug 3",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1020,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "4a882566cd7380f3",
+        "type": "join",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "mode": "custom",
+        "build": "merged",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": true,
+        "timeout": "1",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 490,
+        "y": 1160,
+        "wires": [
+            [
+                "43998e718f9af59d"
+            ]
+        ]
+    },
+    {
+        "id": "21925c3777552f86",
+        "type": "ui_gauge",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "group": "68f4ee8c43db8954",
+        "order": 3,
+        "width": 8,
+        "height": "6",
+        "gtype": "donut",
+        "title": "Temperatura Actual",
+        "label": "C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "60",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 990,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "db405a656256ed92",
+        "type": "function",
+        "z": "78d1d8fa3656bdbc",
+        "name": "msg light",
+        "func": "var msg = { payload: msg.payload.light };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 440,
+        "wires": [
+            [
+                "9aea283bdefd31b2",
+                "e77824a33b109dfe"
+            ]
+        ]
+    },
+    {
+        "id": "9aea283bdefd31b2",
+        "type": "ui_gauge",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "group": "d76b8142ee97ae1a",
+        "order": 2,
+        "width": "11",
+        "height": "6",
+        "gtype": "gage",
+        "title": "Iluminación",
+        "label": "LUX",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "4500",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 950,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "e77824a33b109dfe",
+        "type": "ui_chart",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "group": "67bf78b3d8f06758",
+        "order": 0,
+        "width": "11",
+        "height": "6",
+        "label": "Evolución Iluminación",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "4500",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 980,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bccbf152bf0be7c1",
+        "type": "debug",
+        "z": "78d1d8fa3656bdbc",
+        "name": "DATA RECUPERADA",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "ec266607e40169d6",
+        "type": "ui_button",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "group": "a9fe2d8c0cadc1b3",
+        "order": 4,
+        "width": "11",
+        "height": 1,
+        "passthru": false,
+        "label": "Hortalizas y Vegetales",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "",
+        "payload": "{\"intled1\":28,\"intled2\":30,\"intmotor\":30}",
+        "payloadType": "json",
+        "topic": "iotfrontier/sub-config",
+        "topicType": "msg",
+        "x": 540,
+        "y": 1420,
+        "wires": [
+            [
+                "e25dd139ededd1b8"
+            ]
+        ]
+    },
+    {
+        "id": "e25dd139ededd1b8",
+        "type": "mqtt out",
+        "z": "78d1d8fa3656bdbc",
+        "name": "iotfrontier/sub-config",
+        "topic": "iotfrontier/sub-config",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "1e7c14d972ffca93",
+        "x": 1060,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "7ee87561b71c336a",
+        "type": "ui_media",
+        "z": "78d1d8fa3656bdbc",
+        "group": "a9fe2d8c0cadc1b3",
+        "name": "hortalizas",
+        "width": 6,
+        "height": 5,
+        "order": 2,
+        "category": "plantas",
+        "file": "tomate.png",
+        "layout": "adjust",
+        "showcontrols": true,
+        "loop": true,
+        "onstart": false,
+        "scope": "local",
+        "tooltip": "",
+        "x": 500,
+        "y": 1380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e4234996d9ea250b",
+        "type": "ui_button",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "group": "729af1e2d02098f9",
+        "order": 4,
+        "width": "11",
+        "height": 1,
+        "passthru": false,
+        "label": "Hierbas Aromáticas",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "className": "",
+        "icon": "",
+        "payload": "{\"intled1\":24,\"intled2\":28,\"intmotor\":28}",
+        "payloadType": "str",
+        "topic": "iotfrontier/sub-config",
+        "topicType": "msg",
+        "x": 530,
+        "y": 1500,
+        "wires": [
+            [
+                "e25dd139ededd1b8"
+            ]
+        ]
+    },
+    {
+        "id": "459fe484aef08732",
+        "type": "ui_button",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "group": "d9b0b4d29212a656",
+        "order": 4,
+        "width": "11",
+        "height": 1,
+        "passthru": false,
+        "label": "Frutas y Cultivos Tropicales",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "orange",
+        "className": "",
+        "icon": "",
+        "payload": "{\"intled1\":35,\"intled2\":40,\"intmotor\":40}",
+        "payloadType": "str",
+        "topic": "iotfrontier/sub-config",
+        "topicType": "msg",
+        "x": 560,
+        "y": 1580,
+        "wires": [
+            [
+                "e25dd139ededd1b8"
+            ]
+        ]
+    },
+    {
+        "id": "2e497b515438a2c3",
+        "type": "ui_media",
+        "z": "78d1d8fa3656bdbc",
+        "group": "d9b0b4d29212a656",
+        "name": "fruit",
+        "width": 6,
+        "height": 5,
+        "order": 2,
+        "category": "plantas",
+        "file": "tropicalfruits.png",
+        "layout": "center",
+        "showcontrols": true,
+        "loop": true,
+        "onstart": false,
+        "scope": "local",
+        "tooltip": "",
+        "x": 490,
+        "y": 1540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bbfa8db91c67b199",
+        "type": "ui_media",
+        "z": "78d1d8fa3656bdbc",
+        "group": "729af1e2d02098f9",
+        "name": "herb",
+        "width": 6,
+        "height": 5,
+        "order": 2,
+        "category": "plantas",
+        "file": "herb.png",
+        "layout": "adjust",
+        "showcontrols": true,
+        "loop": true,
+        "onstart": false,
+        "scope": "local",
+        "tooltip": "",
+        "x": 490,
+        "y": 1460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "00262970b3743d68",
+        "type": "ui_text",
+        "z": "78d1d8fa3656bdbc",
+        "group": "50f30258197e8cd4",
+        "order": 1,
+        "width": 33,
+        "height": 1,
+        "name": "Configuraciones Predetermidadas",
+        "label": "",
+        "format": "Configuraciones Predetermidadas",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "24",
+        "color": "#ffffff",
+        "x": 580,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "eb37eca60f087a76",
+        "type": "ui_button",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "group": "49b1aae81135138a",
+        "order": 9,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "label": "Enviar",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 870,
+        "y": 1660,
+        "wires": [
+            [
+                "71606ca215e9392b"
+            ]
+        ]
+    },
+    {
+        "id": "6c033e12b9f1c7a2",
+        "type": "ui_numeric",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "label": "Led 1",
+        "tooltip": "",
+        "group": "49b1aae81135138a",
+        "order": 3,
+        "width": 6,
+        "height": 1,
+        "wrap": true,
+        "passthru": true,
+        "topic": "led1",
+        "topicType": "msg",
+        "format": "°C",
+        "min": "20",
+        "max": "50",
+        "step": 1,
+        "className": "",
+        "x": 390,
+        "y": 1660,
+        "wires": [
+            [
+                "07de04bb8cdf2abb"
+            ]
+        ]
+    },
+    {
+        "id": "66b985854b6c35e9",
+        "type": "ui_numeric",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "label": "Led 2",
+        "tooltip": "",
+        "group": "49b1aae81135138a",
+        "order": 5,
+        "width": 6,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic.led2",
+        "topicType": "msg",
+        "format": "°C",
+        "min": "20",
+        "max": "50",
+        "step": 1,
+        "className": "",
+        "x": 390,
+        "y": 1720,
+        "wires": [
+            [
+                "64396aa98a5fd9db"
+            ]
+        ]
+    },
+    {
+        "id": "21f4d4df1723de5b",
+        "type": "ui_numeric",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "label": "Motor",
+        "tooltip": "",
+        "group": "49b1aae81135138a",
+        "order": 7,
+        "width": 6,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic.motor",
+        "topicType": "msg",
+        "format": "°C",
+        "min": "20",
+        "max": "50",
+        "step": 1,
+        "className": "",
+        "x": 390,
+        "y": 1780,
+        "wires": [
+            [
+                "1ec4adb6063b7b36"
+            ]
+        ]
+    },
+    {
+        "id": "71606ca215e9392b",
+        "type": "function",
+        "z": "78d1d8fa3656bdbc",
+        "name": "function 2",
+        "func": "msg.payload = {\n    \"intled1\": flow.get(\"intled1\") || 0,\n    \"intled2\": flow.get(\"intled2\") || 0,\n    \"intmotor\": flow.get(\"intmotor\") || 0\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 1760,
+        "wires": [
+            [
+                "e4b67430e1847e1c",
+                "e25dd139ededd1b8"
+            ]
+        ]
+    },
+    {
+        "id": "07de04bb8cdf2abb",
+        "type": "change",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "intled1",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 1660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "64396aa98a5fd9db",
+        "type": "change",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "intled2",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 1720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1ec4adb6063b7b36",
+        "type": "change",
+        "z": "78d1d8fa3656bdbc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "intmotor",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 1780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e4b67430e1847e1c",
+        "type": "debug",
+        "z": "78d1d8fa3656bdbc",
+        "name": "debug 4",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "b635cdf3838ce112",
+        "type": "ui_text",
+        "z": "78d1d8fa3656bdbc",
+        "group": "a9fe2d8c0cadc1b3",
+        "order": 4,
+        "width": "11",
+        "height": "1",
+        "name": "desc hortalizas",
+        "label": "",
+        "format": "Temperatura ideal entre 20-28 °C. Advertencia > 28 y Alerta >30",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "15",
+        "color": "#ffffff",
+        "x": 660,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "7beff120f73ace6a",
+        "type": "ui_text",
+        "z": "78d1d8fa3656bdbc",
+        "group": "729af1e2d02098f9",
+        "order": 4,
+        "width": "11",
+        "height": "1",
+        "name": "des herb",
+        "label": "",
+        "format": "Temperatura ideal entre 20-24 °C. Advertencia > 24 y Alerta >28",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 640,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "d4b5f69c84ac1f4a",
+        "type": "ui_text",
+        "z": "78d1d8fa3656bdbc",
+        "group": "d9b0b4d29212a656",
+        "order": 4,
+        "width": "11",
+        "height": "1",
+        "name": "desc fruit",
+        "label": "",
+        "format": "Temperatura ideal entre 28-35 °C. Advertencia > 35 y Alerta >40",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 640,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "8047bb52b7645b4d",
+        "type": "mysql",
+        "z": "78d1d8fa3656bdbc",
+        "mydb": "15de48bc185f1571",
+        "name": "BD",
+        "x": 930,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "78abb8c411aa97d8",
+        "type": "function",
+        "z": "78d1d8fa3656bdbc",
+        "name": "query guardar data",
+        "func": "var temperature = msg.payload.temperature;\nvar humidity = msg.payload.humidity;\nvar light = msg.payload.light;\n\nmsg.topic = \"INSERT INTO datos (temp, hum, luz) VALUES (\" + \n             temperature + \", \" + humidity + \", \" + light + \")\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 580,
+        "wires": [
+            [
+                "bccbf152bf0be7c1",
+                "8047bb52b7645b4d"
+            ]
+        ]
+    }
+]
